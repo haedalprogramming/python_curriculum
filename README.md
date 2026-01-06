@@ -27,7 +27,7 @@
 10. **개념 복습**: 1~9차시 총정리 및 Q&A
 
 ---
-https://docs.google.com/document/d/1p2FivoUVZe61Q6DXw8sh_EFDNQtnF61-mm_MEMaN3vc/edit?tab=t.0
+[독스 링크](https://docs.google.com/document/d/1p2FivoUVZe61Q6DXw8sh_EFDNQtnF61-mm_MEMaN3vc/edit?tab=t.0)
 
 # 📅 Part 2. 파이썬 무기 창고 털기 (라이브러리 활용) 
 ### 11차시. 운에 맡겨라 (`random` 모듈)
