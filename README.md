@@ -76,7 +76,33 @@ print(f"섞기 전: {playlist}")
 random.shuffle(playlist) # 순서를 무작위로 뒤섞음 (리스트 자체가 변함)
 print(f"섞은 후: {playlist}")
 print(f"바로 재생할 곡: {playlist[0]}")
+```
+- 실습 코드 A: 점심 메뉴 추천기
+```python
+import random  # 랜덤 기능을 쓰기 위해 도구를 가져옵니다.
 
+# 메뉴 리스트를 만듭니다. (학생들이 좋아하는 메뉴로 바꿔보세요!)
+menu_list = ["마라탕", "떡볶이", "돈까스", "삼겹살", "급식"]
+
+# random.choice(리스트): 리스트 내용 중 하나를 무작위로 뽑습니다.
+today_lunch = random.choice(menu_list)
+
+print("오늘 점심은", today_lunch, "어때요?")
+```
+- 실습 코드 B: 로또 번호 생성기
+```python
+import random
+
+print("★ 이번 주 로또 행운의 번호 ★")
+
+# random.sample(범위, 개수): 범위 내에서 중복 없이 개수만큼 뽑습니다.
+# range(1, 46)은 1부터 45까지의 숫자를 의미합니다.
+lotto = random.sample(range(1, 46), 6)
+
+# 뽑은 번호가 뒤죽박죽이니 보기 좋게 정렬(오름차순)합니다.
+lotto.sort()
+
+print("추천 번호:", lotto)
 ```
 ### 12차시. 시간은 금이다 (`time`, `datetime` 모듈)
 - **설명**: 프로그램의 실행 속도를 조절하거나(잠시 멈춤), 현재 시간을 측정할 수 있습니다. 또한 `datetime`을 이용해 날짜 차이(D-Day)를 계산하는 방법을 배웁니다.
