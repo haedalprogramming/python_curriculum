@@ -28,7 +28,7 @@
 
 ---
 
-# 📅 Part 2. 파이썬 무기 창고 털기 (라이브러리 활용)
+# 📅 Part 2. 파이썬 무기 창고 털기 (라이브러리 활용) https://docs.google.com/document/d/1p2FivoUVZe61Q6DXw8sh_EFDNQtnF61-mm_MEMaN3vc/edit?tab=t.0
 
 ### 11차시. 운에 맡겨라 (`random` 모듈)
 - **설명**: 컴퓨터는 원래 정해진 대로만 움직이지만, `random` 모듈을 사용하면 주사위 굴리기나 제비뽑기처럼 '무작위(랜덤)' 데이터를 만들어낼 수 있습니다. 예측 불가능한 재미 요소를 추가합니다.
