@@ -46,7 +46,17 @@ print(f"오늘 점심은 {today_lunch} 어때요?")
 # 2. 주사위 굴리기
 dice = random.randint(1, 6) # 1부터 6 사이의 정수 중 하나 랜덤
 print(f"주사위 눈: {dice}")
+```
+### 💻 실습 2: 로또 번호 생성기
+```python
+import random
 
+# 1부터 45까지의 숫자 중, 중복 없이 6개를 뽑는다.
+lotto = random.sample(range(1, 46), 6)
+lotto.sort() # 보기 좋게 정렬 (오름차순)
+
+print("이번 주 로또 예상 번호:", lotto)
+```
 #### 12차시. 시간은 금이다 (`time`, `datetime`)
 - **내용**: 프로그램 실행 속도 조절 및 날짜 계산
 - **실습**: 10초 맞추기 게임(타이머), 수능/방학 D-Day 계산기
