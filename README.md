@@ -41,39 +41,44 @@ import random
 
 # ------------------------------------------
 # (1) random.randint(a, b) : 주사위 굴리기
+# 설명: a와 b 사이의 정수 중 하나를 무작위로 반환합니다 (a와 b 포함).
+# 사용 예: 주사위 1~6 -> random.randint(1, 6)
 # ------------------------------------------
 print("--- [1] 주사위 굴리기 (randint) ---")
-dice = random.randint(1, 6) # 1~6 사이 랜덤 정수
+dice = random.randint(1, 6)  # 1~6 사이 랜덤 정수 (양 끝 포함)
 print(f"주사위가 데구르르... 결과: {dice}")
-
 
 # ------------------------------------------
 # (2) random.choice(리스트) : 제비 뽑기
+# 설명: 리스트(또는 시퀀스)에서 무작위로 하나의 요소를 선택합니다.
+# 사용 예: 메뉴 추천, 랜덤 아이템 선택 등
 # ------------------------------------------
 print("\n--- [2] 점심 메뉴 고르기 (choice) ---")
 menu_list = ["짜장면", "짬뽕", "마라탕", "돈까스", "급식"]
-my_lunch = random.choice(menu_list) # 리스트 중 하나 선택
+my_lunch = random.choice(menu_list)  # 리스트 중 하나 랜덤 선택
 print(f"결정장애 해결! 오늘의 메뉴: {my_lunch}")
 
-
 # ------------------------------------------
-# (3) random.sample(리스트, 개수) : 로또 추첨기
+# (3) random.sample(시퀀스/범위, k) : 로또 추첨기
+# 설명: 주어진 시퀀스나 범위에서 겹치지 않게 k개의 요소를 뽑아 리스트로 반환합니다.
+# 사용 예: 로또 번호, 중복 없이 랜덤으로 여러개 뽑기
 # ------------------------------------------
 print("\n--- [3] 로또 번호 추첨 (sample) ---")
 # 1부터 45까지 숫자 중 겹치지 않게 6개 뽑기
 lotto_nums = random.sample(range(1, 46), 6)
-lotto_nums.sort() # 보기 좋게 정렬(오름차순)
+lotto_nums.sort()  # 보기 좋게 정렬(오름차순)
 print(f"이번 주 행운의 번호: {lotto_nums}")
 
-
 # ------------------------------------------
-# (4) random.shuffle(리스트) : 카드 섞기
+# (4) random.shuffle(리스트) : 카드(리스트) 섞기
+# 설명: 리스트 자체를 무작위로 섞습니다(제자리 변경, 반환값 없음).
+# 사용 예: 플레이리스트 섞기, 카드 섞기
 # ------------------------------------------
 print("\n--- [4] 재생 목록 섞기 (shuffle) ---")
 playlist = ["Love Dive", "Hype Boy", "Dynamite", "Super Shy", "ETA"]
 print(f"섞기 전: {playlist}")
 
-random.shuffle(playlist) # 순서를 무작위로 뒤섞음 (리스트 자체가 변함)
+random.shuffle(playlist)  # 리스트 자체를 무작위로 섞음(원본 변경)
 print(f"섞은 후: {playlist}")
 print(f"바로 재생할 곡: {playlist[0]}")
 ```
@@ -97,7 +102,7 @@ print("★ 이번 주 로또 행운의 번호 ★")
 
 # random.sample(범위, 개수): 범위 내에서 중복 없이 개수만큼 뽑습니다.
 # range(1, 46)은 1부터 45까지의 숫자를 의미합니다.
-lotto = random.sample(range(1, 46), 6)
+lotto = random.sample(range(1, 46), 6) # 중복 없이 6개 숫자 선택
 
 # 뽑은 번호가 뒤죽박죽이니 보기 좋게 정렬(오름차순)합니다.
 lotto.sort()
