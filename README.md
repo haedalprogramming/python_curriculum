@@ -14,17 +14,66 @@
 
 ## 📚 상세 목차
 
-### Part 1. 파이썬 기초 문법 (1~10차시)
-1. **파이썬의 이해와 설치**: 개발 환경 세팅 (VS Code)
-2. **수치 자료형과 변수**: 숫자 다루기, 변수 개념
-3. **문자열**: 텍스트 다루기, 인덱싱/슬라이싱
-4. **군집 자료형**: 리스트, 튜플 등 데이터 묶음
-5. **문자 입출력**: `input`, `print` 포맷팅
-6. **조건문**: `if`, `elif`, `else`
-7. **for 반복문**: 횟수 제어 반복
-8. **while 반복문**: 조건 제어 반복
-9. **함수**: `def` 정의와 호출
-10. **개념 복습**: 1~9차시 총정리 및 Q&A
+# Part 1. 파이썬 기초 문법 (1~10차시)
+### 1차시. 파이썬의 이해와 설치: 개발 환경 세팅 (VS Code)
+- **설명**: 파이썬을 이해하고 개발 환경을 설정합니다. VS Code 설치와 기본 설정(확장, 터미널, 인터프리터 선택)을 통해 코드를 작성하고 실행할 수 있는 환경을 준비합니다.
+### 2차시. 수치 자료형과 변수: 숫자 다루기, 변수 개념
+- **설명**: 정수(int)와 실수(float) 같은 수치 자료형과 변수의 개념을 배우고, 산술 연산(+, -, *, /, //, %, **)과 형 변환을 통해 기본 계산과 값을 저장·다루는 방법을 익힙니다.
+- [개념 학습 코드](./code/2-1-numbers_concept.py)
+- [실습 코드 A: 간단 계산기](./code/2-2-practice_calc.py)
+- [실습 코드 B: BMI 측정기](./code/2-3-practice_bmi.py)
+- [도전 과제](./code/2-4-challenge.py)
+- [정답](./code/2-5-answer.py)
+### 3차시. 문자열: 텍스트 다루기, 인덱싱/슬라이싱
+- **설명**: 문자열은 텍스트 데이터를 다루는 자료형입니다. 인덱싱과 슬라이싱으로 부분 문자열을 추출하고, 연결(+)·반복(*)·길이(len)·포맷(f-string 등)을 사용해 텍스트를 다루는 기본을 배웁니다.
+- [개념 학습 코드](./code/3-1-strings_concept.py)
+- [실습 코드 A: 인덱싱과 슬라이싱](./code/3-2-practice_a_substring.py)
+- [실습 코드 B: 문자열 연결](./code/3-3-practice_b_formatting.py)
+- [도전 과제](./code/3-4-challenge.py)
+- [정답](./code/3-5-answer.py)
+### 4차시. 군집 자료형: 리스트, 튜플 등 데이터 묶음
+- **설명**: 여러 값을 한곳에 묶어 다루는 자료형을 배웁니다. 대표적으로 변경 가능한 리스트(list)와 변경 불가능한 튜플(tuple)이 있으며, 인덱스·슬라이싱·반복·멤버십 연산 등을 사용해 데이터를 처리합니다.
+- [개념 학습 코드](./code/4-1-lists_tuples_concept.py)
+- [실습 코드 A: 리스트 조작 연습](./code/4-2-practice_list_basic.py)
+- [실습 코드 B: 리스트와 튜플 비교](./code/4-3-practice_list_tuple.py.py)
+- [도전 과제](./code/4-4-challenge.py)
+- [정답](./code/4-5-answer.py)
+### 5차시. 문자 입출력: `input`, `print` 포맷팅
+- **설명**: 사용자 입력(input)으로 값을 받고, print와 여러 포맷 방법(f-string, format, %, sep, end)으로 보기 좋게 출력하는 방법을 배웁니다.
+- [개념 학습 코드](./code/5-1-io_concept.py)
+- [실습 코드 A: 인사말 만들기](./code/5-2-practice_a_greeting.py)
+- [실습 코드 B: 영수층 출력](./code/5-3-practice_b_receipt.py)
+- [도전 과제](./code/5-4-challenge.py)
+- [정답](./code/5-5-answer.py)
+### 6차시. 조건문: `if`, `elif`, `else`
+- **설명**: 프로그램의 흐름을 조건에 따라 분기합니다. 비교 연산자(==, !=, <, >, <=, >=), 논리 연산자(and, or, not), 그리고 if / elif / else 구조를 사용해 상황에 맞는 동작을 하도록 만듭니다.
+- [개념 학습 코드](./code/6-1-if_concept.py)
+- [실습 코드 A: 성적 판별기](./code/6-2-practice_a_grade_check.py)
+- [실습 코드 B: 홀짝 판별기](./code/6-3-practice_b_even_odd.py)
+- [도전 과제](./code/6-4-challenge.py)
+- [정답](./code/6-5-answer.py)
+### 7차시. for 반복문: 횟수 제어 반복
+- **설명**: `for` 반복문을 사용해 리스트나 문자열, `range()`로 생성한 수열 등 '여러 값'을 순서대로 처리합니다. 반복 작업을 자동화하고 `break`/`continue`로 흐름을 제어할 수 있습니다.
+- [개념 학습 코드](./code/7-1-for_concept.py)
+- [실습 코드 A: 성적 판별기](./code/7-2-practice_a_sum_n.py)
+- [실습 코드 B: 홀짝 판별기](./code/7-3-practice_b_multiplication_table.py)
+- [도전 과제](./code/7-4-challenge.py)
+- [정답](./code/7-5-answer.py)
+### 8차시. while 반복문: 조건 제어 반복
+- **설명**: `while`문은 주어진 조건이 참(True)인 동안 코드를 반복 실행합니다. 반복 횟수가 미리 정해지지 않은 상황(사용자 입력, 특정 조건 충족까지 등)에 적합합니다. 반복문 안에서 특정 조건을 만족하면 종료하도록 해야 무한 루프를 피할 수 있습니다.
+- [개념 학습 코드](./code/8-1-while_concept.py)
+- [실습 코드 A: while로 1부터 n까지 합 구하기](./code/8-2-practice_sum_while.py)
+- [실습 코드 B: 문자열을 모아서 출력하기](./code/8-3-practice_collect_inputs.py)
+- [도전 과제](./code/8-4-challenge.py)
+- [정답](./code/8-5-answer.py)
+### 9차시. 함수: `def` 정의와 호출
+- **설명**: 반복되는 코드를 묶어 재사용 가능한 블록(함수)을 만듭니다. `def`로 함수를 정의하고, 매개변수(인자)와 반환값(return)을 사용해 값을 주고받습니다. 함수는 코드 구조를 깔끔하게 하고 버그를 줄여 줍니다.
+- [개념 학습 코드](./code)
+- [실습 코드 A: 매개변수 없는 함수](./code)
+- [실습 코드 B: 매개변수와 반환값 연습](./code)
+- [도전 과제](./code/9-4-challenge.py)
+- [정답](./code/9-5-answer.py)
+### 10차시. 개념 복습: 1~9차시 총정리 및 Q&A
 
 ---
 [독스 링크](https://docs.google.com/document/d/1p2FivoUVZe61Q6DXw8sh_EFDNQtnF61-mm_MEMaN3vc/edit?tab=t.0)
