@@ -177,33 +177,33 @@ const COLORS = {
 
 ## 6. 제작 파일 목록
 
-### 6.1 슬라이드 기획안 (slide_plan_*.md)
+### 6.1 슬라이드 기획안 (slide_plans/slide_plan_*.md)
 
 | 파일명 | 차시 | 상태 |
 |--------|------|------|
-| `slide_plan_1.md` | 1차시 환경 설정 | 작성 예정 |
-| `slide_plan_2.md` | 2차시 수치 자료형 | 작성 예정 |
-| `slide_plan_3.md` | 3차시 문자열 | 대기 |
-| `slide_plan_4.md` | 4차시 군집 자료형 | 대기 |
-| `slide_plan_5.md` | 5차시 입출력 | 대기 |
-| `slide_plan_6.md` | 6차시 조건문 | 작성 예정 |
-| `slide_plan_7.md` | 7차시 for문 | 대기 |
-| `slide_plan_8.md` | 8차시 while문 | 대기 |
-| `slide_plan_9.md` | 9차시 함수 | 대기 |
-| `slide_plan_10.md` | 10차시 복습 | 대기 |
-| `slide_plan_11.md` | 11차시 random | 작성 예정 |
+| `slide_plans/slide_plan_1.md` | 1차시 환경 설정 | 작성 예정 |
+| `slide_plans/slide_plan_2.md` | 2차시 수치 자료형 | 작성 예정 |
+| `slide_plans/slide_plan_3.md` | 3차시 문자열 | 대기 |
+| `slide_plans/slide_plan_4.md` | 4차시 군집 자료형 | 대기 |
+| `slide_plans/slide_plan_5.md` | 5차시 입출력 | 대기 |
+| `slide_plans/slide_plan_6.md` | 6차시 조건문 | 작성 예정 |
+| `slide_plans/slide_plan_7.md` | 7차시 for문 | 대기 |
+| `slide_plans/slide_plan_8.md` | 8차시 while문 | 대기 |
+| `slide_plans/slide_plan_9.md` | 9차시 함수 | 대기 |
+| `slide_plans/slide_plan_10.md` | 10차시 복습 | 대기 |
+| `slide_plans/slide_plan_11.md` | 11차시 random | 작성 예정 |
 | ... | ... | ... |
-| `slide_plan_17.md` | 17차시 Up/Down | 작성 예정 |
+| `slide_plans/slide_plan_17.md` | 17차시 Up/Down | 작성 예정 |
 | ... | ... | ... |
-| `slide_plan_25.md` | 25차시 종합 | 대기 |
+| `slide_plans/slide_plan_25.md` | 25차시 종합 | 대기 |
 
-### 6.2 GS 스크립트 (slide_*.gs)
+### 6.2 GS 스크립트 (slides/slide_*.gs)
 
 | 파일명 | 차시 | 상태 |
 |--------|------|------|
-| `slide_ex.gs` | (옥토스튜디오 템플릿) | 완료 |
-| `slide_1.gs` | 1차시 | 작성 예정 |
-| `slide_2.gs` | 2차시 수치 자료형 | 작성 예정 |
+| `slides/slide_ex.gs` | (옥토스튜디오 템플릿) | 완료 |
+| `slides/slide_1.gs` | 1차시 | 작성 예정 |
+| `slides/slide_2.gs` | 2차시 수치 자료형 | 작성 예정 |
 | ... | ... | ... |
 
 ---
@@ -225,6 +225,6 @@ const COLORS = {
 ## 8. 참고 자료
 
 - [README.md](./README.md) - 커리큘럼 원본
-- [slide_plan_ex.md](./slide_plan_ex.md) - 옥토스튜디오 기획안 예시
-- [slide_ex.gs](./slide_ex.gs) - 해달에듀 PPT 템플릿 가이드
+- [slide_plan_ex.md](./slide_plans/slide_plan_ex.md) - 옥토스튜디오 기획안 예시
+- [slide_ex.gs](./slides/slide_ex.gs) - 해달에듀 PPT 템플릿 가이드
 - [Google Docs 원본](https://docs.google.com/document/d/1p2FivoUVZe61Q6DXw8sh_EFDNQtnF61-mm_MEMaN3vc/edit?tab=t.0)
